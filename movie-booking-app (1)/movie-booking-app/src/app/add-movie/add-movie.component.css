@@ -1,0 +1,88 @@
+.movie-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    
+  }
+  mat-card {
+    max-width: 500px;
+    width: 90%;
+    height: auto;
+    padding: 20px;
+    background-color: #dff4f7;
+    
+  }
+  mat-card-header {
+    display: block;
+    padding: 50px;
+    text-align: center;
+  }
+  mat-card-title{
+    font-family: ui-sans-serif;
+    font-weight: bold;
+    font-size:25px;
+    color:#002244;
+  }
+  mat-form-field {
+    padding: 5px;
+    width: 100%;
+  }
+  .message {
+    margin-top: 16px;
+    font-weight: bold;
+  }
+  
+  .error-message {
+    color: red;
+  }
+  
+  .success-message {
+    color: green;
+  }
+  .mat-form-field {
+    width: 100%;
+  }
+  
+  .form-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .mat-form-field {
+    width: 100%;
+    padding: 5px;
+  }
+  
+  .mat-card-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .toggle-icon {
+    cursor: pointer;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+  }
+  
+  .links {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .links a {
+    color: #9fa8db;
+    text-decoration: none;
+  }
+  
+  .links a:hover {
+    text-decoration: underline;
+  }
+  
