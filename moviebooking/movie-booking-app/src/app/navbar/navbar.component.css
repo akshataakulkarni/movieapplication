@@ -1,0 +1,20 @@
+  mat-toolbar{
+    color: rgb(6, 88, 109);
+    background-color: rgb(214, 247, 247);
+    font-family: ui-sans-serif;
+    font-weight: bold;
+   }
+ .spacer {
+    flex: 1 1 auto;
+ 
+  }
+  
+  .username-icon {
+    display: flex;
+    align-items: center;
+    margin-right: 1px;
+    margin-bottom: 8px;
+  }
+  
+
+  
